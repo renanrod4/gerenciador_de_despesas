@@ -1,28 +1,21 @@
-**/bin/
-**/obj/
+node_modules/
+.next/
+out/
+dist/
+build/
 
-*.db
-*.db-journal
-*.db-wall
-*.db
-*.db-shm
-*.db-wal
+/data/
 
-.vs/
-**/Properties/launchSettings.json
+.env
+.env.*
+!.env.example
 
-**/node_modules/
-**/dist/
-**/.next/
-**/build/
+*.tsbuildinfo
+next-env.d.ts
 
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
+coverage/
+.vercel/
 
-**/.env.local
-**/.env
-**/.env.development.local
+*.log
 .DS_Store
 Thumbs.db
-.vscode/
